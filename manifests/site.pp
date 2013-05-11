@@ -73,6 +73,7 @@ node default {
   include ruby::2_0_0
 
   include hipchat
+  include chrome
   # common, useful packages
   package {
     [
