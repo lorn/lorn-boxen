@@ -4,6 +4,11 @@ GITHUBTARBALL
     adium (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (2.1.0)
@@ -67,6 +72,11 @@ GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libtool
+  specs:
+    libtool (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
@@ -149,6 +159,11 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -165,6 +180,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.1.1)
+  autoconf (= 1.0.0)
   boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
@@ -180,6 +196,7 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   iterm2 (= 1.0.2)
+  libtool (= 1.0.0)
   mongodb (= 1.0.0)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
@@ -197,5 +214,6 @@ DEPENDENCIES
   tmux (= 1.0.2)
   vagrant (= 2.0.6)
   wget (= 1.0.0)
+  xquartz (= 1.1.0)
   zsh (= 1.0.0)
 

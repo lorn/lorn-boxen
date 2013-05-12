@@ -75,6 +75,7 @@ node default {
   include hipchat
   include chrome
   include firefox
+
   # common, useful packages
   package {
     [

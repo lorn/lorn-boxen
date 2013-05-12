@@ -26,11 +26,10 @@ class people::lorn {
 
 
   include erlang
-  include iterm2
+  include iterm2::dev
   include zsh
   include vagrant
   #include virtualbox
-  include mongodb
   include tmux
   include adium
   include heroku
