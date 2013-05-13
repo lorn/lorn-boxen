@@ -2,8 +2,8 @@ class people::lorn {
   notify { 'hello Lorn': }
   package {
     [
-      'ghc',
-      'cabal-install',
+    #  'ghc',
+    #  'cabal-install',
       'fasd',
     ]:
   }
@@ -25,7 +25,7 @@ class people::lorn {
   include osx::no_network_dsstores
 
 
-  include erlang
+  #include erlang
   include iterm2::dev
   include zsh
   include vagrant
