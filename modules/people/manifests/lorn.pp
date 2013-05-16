@@ -37,5 +37,19 @@ class people::lorn {
   include python
   include wget
   include sparrow
-  include emacs
+  include emacs Package <| title == 'boxen/brews/emacs' |> { ensure => installed, name => 'emacs', install_options => [ '--cocoa' ] }
+
+  $home     = "/Users/${::luser}"
+
+  $dotfiles = "${home}/.dot"
+  $oh_my_zsh = "${home}/.oh-my-zsh"
+
+  repository { $dotfiles:
+    source  => 'lorn/dot'
   }
+
+  repository { $oh_my_zsh:
+    source  => 'lorn/oh-my-zsh'
+  }
+
+}
