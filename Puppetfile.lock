@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (2.1.0)
+    boxen (3.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -41,12 +41,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (1.0.0)
+    gcc (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.2.2)
+    git (1.2.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-heroku
@@ -61,12 +61,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.1.2)
+    homebrew (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.0.0)
+    hub (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
@@ -86,12 +86,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.0)
+    nginx (1.4.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (2.2.0)
+    nodejs (3.2.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-openssl
+  specs:
+    openssl (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-osx
@@ -116,12 +121,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.0.2)
+    repository (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (4.1.0)
+    ruby (6.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-skitch
@@ -159,6 +164,7 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+=======
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
@@ -169,14 +175,14 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: cprice-puppet/puppetlabs-inifile
+  remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (0.9.0)
+    inifile (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.0.2)
+    stdlib (4.1.0)
 
 DEPENDENCIES
   adium (= 1.1.1)
@@ -216,4 +222,3 @@ DEPENDENCIES
   wget (= 1.0.0)
   xquartz (= 1.1.0)
   zsh (= 1.0.0)
-
