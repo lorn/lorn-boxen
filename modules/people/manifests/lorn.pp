@@ -33,6 +33,7 @@ class people::lorn {
   include skype
   include python
   include wget
+  include postgresql
 
 #  $home     = "/Users/${::luser}"
 
